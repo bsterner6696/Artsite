@@ -1,0 +1,57 @@
+* {
+	font-family: Courier;
+	cursor: url(cursor.png),auto;
+}
+body {
+	background-color: #ffffcc;	
+}
+h1 {
+	font-size: 400%;
+}
+.bgPretty {
+	background-image: url("poke.jpg");
+	background-color: #ffffcc;
+	background-size: 100% 100%;
+}
+.picMe {
+	max-height: 250px;
+	border-radius: 10px;
+}
+.picStandard {
+	border-radius: 10px;
+	max-width: 500px;
+	display: inline-block;
+}
+.picDog {
+	border-radius: 10px;
+	display: inline-block;
+	max-width: 100%;
+}
+a {
+	color:#0099ff;
+	text-decoration:none;
+}
+a:hover {
+	color: #00ff99;
+}
+a:visited {
+	color:#0099ff;
+}
+a:visited:hover {
+	color: #00ff99;
+}
+h3>ul>li {
+	font-size: 75%;
+	margin: 20px;
+}
+#secretBox {
+	height:25px;
+	width: 25px;
+	background-color:#ffffcc;
+	position: fixed;
+	left: 200px;
+	top: 600px;
+}
+#secretBox:hover {
+	background-color:blue;
+}

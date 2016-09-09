@@ -1,0 +1,16 @@
+#finn {
+	text-align:center;
+}
+body {
+	background-color: #333399;
+	background-image:url("fancy.png");
+}
+.homeRoot {
+	background-color:#cc00ff;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+	position: fixed;
+	top: 100px;
+	left: 100px;
+}
